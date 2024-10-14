@@ -1,0 +1,54 @@
+.backgroundimage{
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index: 0;
+}
+.pagecontent{
+    position:relative;
+    height:100%;
+    width:100%;
+    z-index: 2;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color:lightpink;
+}
+.menubar ul li a:hover{
+    color:green;
+}
+.menubar ul li{
+    list-style-type: none;
+    display: inline;
+    padding:20px;
+}
+.menubar ul{
+    display:flex;
+   align-items: center;
+   justify-content: center;
+}
+.regform{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid;
+    border-radius: 10px;
+    padding:10px;
+}
+.regform h1{
+    color:greenyellow;
+}
+.regform .labels{
+    padding: 10px;
+    border-radius: 10px;
+    color:limegreen;
+}
+.regform label{
+    color:gold;
+}
+.submit{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: powderblue;
+    margin-top: 10px;
+}
